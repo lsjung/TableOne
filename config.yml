@@ -1,0 +1,11 @@
+---
+  data: efficacy_demo1.csv
+  subjects: [E0000012, E0000023, E0000028, E0000032, E0000033, E0000042, E0000044, E0000052, E0000055, E0000066, E0000069, E0000072, E0000082, E0000092, E0000096, E0000097]
+  conmean:
+    - AGE
+  conmed: ['AGE','BMI']
+  cutpoint: [65, 25]
+  cat: 
+    - SEX
+    - RACE
+    - ECOG
